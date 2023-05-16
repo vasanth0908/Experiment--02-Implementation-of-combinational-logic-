@@ -14,6 +14,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 
 ## Theory
+Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
  
 
 ## Logic Diagram
@@ -36,8 +37,18 @@ Developed by:
 RegisterNumber:  
 */
 ## RTL realization
+![c1](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/4242633c-e3a5-4b22-893b-bd0b440eecb2)
+
+
+![c2](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/c7664381-272e-4d93-965a-b4cc401d82f6)
+
 
 ## Output:
+![c11](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/25c9fe24-ce63-45cd-a694-1bc46a00fb5f)
+
+
+![c22](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/edc5962a-ab03-4a62-972b-a9266dd4a148)
+
 ## RTL
 ## Timing Diagram
 ## Result:
