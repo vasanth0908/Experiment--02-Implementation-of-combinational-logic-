@@ -18,6 +18,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 ## Logic Diagram
 ## Procedure
+The input and output variables are allocated with letter symbols. The exact truth table that defines the required relationships between inputs and outputs is derived. The simplified Boolean function is obtained from each output. The logic diagram is drawn.
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
