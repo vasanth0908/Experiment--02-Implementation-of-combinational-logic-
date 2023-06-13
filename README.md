@@ -31,11 +31,31 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 ## Procedure
 The input and output variables are allocated with letter symbols. The exact truth table that defines the required relationships between inputs and outputs is derived. The simplified Boolean function is obtained from each output. The logic diagram is drawn.
 ## Program:
-/*
+```
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: 
 RegisterNumber:  
-*/
+module cpmbine(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire p,q,r;
+assign p=(~c & b & a);
+assign q=(~d & c & c & a);
+assign r=(c & ~b & a);
+assign f=(~(~p & ~q & ~r));
+endmodule
+```
+```
+module combine1(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire p,q,r;
+assign p=(c & ~b & a);
+assign q=(d & ~c & a);
+assign r=(c & ~b & a);
+assign f=((p | q & |r));
+endmodule
+```
 ## RTL realization
 ![c1](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/4242633c-e3a5-4b22-893b-bd0b440eecb2)
 
