@@ -64,12 +64,12 @@ endmodule
 
 
 ## Output:
+
+## Timing Diagram
 ![c11](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/25c9fe24-ce63-45cd-a694-1bc46a00fb5f)
 
 
 ![c22](https://github.com/vasanth0908/Experiment--02-Implementation-of-combinational-logic-/assets/122000018/edc5962a-ab03-4a62-972b-a9266dd4a148)
 
-## RTL
-## Timing Diagram
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
